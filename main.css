@@ -98,6 +98,7 @@ ul{
     border: 1px solid rgba(15, 60, 96, 0.2);
     box-shadow: 0px 1px 3px 0px rgba(60, 75, 87, 0.27);
     display: none; 
+    z-index: 1;
 }
 .menu-dropdown-container ul{
     margin: 0;
@@ -386,13 +387,10 @@ ul{
     background-repeat: no-repeat;
     margin: 16px 15px 0px -48px;
     display: none; 
-    
-    
 }
 
 .messages:hover .check-icon{ 
     display: block;
-
 }
 
 .send-messages-container{
@@ -408,11 +406,9 @@ ul{
     background: white;
     box-sizing: border-box;
     padding: 51px 0px 0px 20px;
-    width: 704px;
+    width: 700px;
     height: 130px;
     display: none; 
-
-
 }
 
 .buttons-focus-container a{
@@ -431,7 +427,6 @@ ul{
     width: 60px;
     height: 21px;
     margin: 6px 0 6px 14px;
-    
 }
 
 .button-send-cancel a {
@@ -524,7 +519,6 @@ ul{
 
 .profile-name p{
     color:rgb(255, 255, 255,0.6);
-    
 }
 .photo-username img{
     margin-right: 15px;
@@ -556,7 +550,6 @@ ul{
 .phone-username a{
     display: block;
     color: black;
-    
 }
 
 .username{
